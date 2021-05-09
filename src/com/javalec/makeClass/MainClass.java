@@ -9,6 +9,5 @@ public class MainClass {
         mc.setAge(16);
     
         double d = mc.calculateBMI();
-        
     }
 }
