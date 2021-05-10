@@ -15,6 +15,9 @@ public class StudentManager {
         studentManager.addStudent("정성용", 21, 201520812, "진정해");
         studentManager.addStudent("박상준", 31, 201120812, "경찰정보");
         studentManager.addStudent("김철구", 28, 201320812, "경영정보");
+    
+        studentManager.students.get(0).updateInfo(1,"홍길똥");
+        System.out.println(studentManager.students.get(0).getName());
     }
     
     public void addStudent(String name, int age, int studentNum, String major) {
